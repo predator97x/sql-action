@@ -5,6 +5,7 @@
   "description": "Azure Sql action",
   "main": "lib/main.js",
   "scripts": {
+    "preinstall": "ls -la",
     "build": "rimraf ./lib && webpack --config ./webpack.config.js --mode production",
     "test": "jest"
   },
